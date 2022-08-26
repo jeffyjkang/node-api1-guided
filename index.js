@@ -12,3 +12,4 @@ server.listen(3000, () => {
 
 // httpie
 // http get :3000 --verbose
+// http post :3000/api/dogs name=foo weight=7 --verbose
