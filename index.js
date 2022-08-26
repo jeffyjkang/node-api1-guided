@@ -1,2 +1,15 @@
 // import the server and start it!
-console.log("hello world")
+// const express = require("express");
+// const server = express();
+
+const server = require('./api/server')
+
+
+
+server.listen(3000, () => {
+  console.log('server listening on 3000')
+});
+
+// httpie
+// http get :3000 --verbose
+// http post :3000/api/dogs name=foo weight=7 --verbose
