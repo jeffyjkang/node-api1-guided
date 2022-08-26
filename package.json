@@ -19,6 +19,11 @@
   },
   "homepage": "https://github.com/jeffyjkang/node-api1-guided#readme",
   "devDependencies": {
+    "eslint": "^8.22.0",
     "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "shortid": "^2.2.16"
   }
 }
